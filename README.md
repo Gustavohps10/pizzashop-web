@@ -37,6 +37,7 @@ yarn dev
 
 ## :hammer_and_wrench: Tools
 <p>
+    <img src="https://img.shields.io/static/v1?label=&message=Yarn&colorA=2a2a2a&colorB=1a1a1e&logo=yarn&style=flat-square">
   <img src="https://img.shields.io/static/v1?label=&message=TypeScript&colorA=2a2a2a&colorB=1a1a1e&logo=typescript&style=flat-square">
   <img src="https://img.shields.io/static/v1?label=&message=React&colorA=2a2a2a&colorB=1a1a1e&logo=react&style=flat-square">
   <img src="https://img.shields.io/static/v1?label=&message=Shadcn/UI&colorA=2a2a2a&colorB=1a1a1e&logo=shadcnui&style=flat-square">
@@ -44,9 +45,10 @@ yarn dev
   <img src="https://img.shields.io/static/v1?label=&message=Zod&colorA=2a2a2a&colorB=1a1a1e&logo=zod&style=flat-square">
   <img src="https://img.shields.io/static/v1?label=&message=React%20Hook%20Form&colorA=2a2a2a&colorB=1a1a1e&logo=react-hook-form&style=flat-square">
   <img src="https://img.shields.io/static/v1?label=&message=React%20Query&colorA=2a2a2a&colorB=1a1a1e&logo=react-query&style=flat-square">
+  <img src="https://img.shields.io/static/v1?label=&message=Recharts&colorA=2a2a2a&colorB=1a1a1e&style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGgSURBVEiJzZU7SBxRFIa/GdaNoE0UUykoiIlgZxnyquxVBCshYJXWLk1Ki1SCpYWwoEEMpBECgXRCyqSy89mYgNgoWdbwWczeZB/uzswqwa+cOef/z+NyL9wH1Edql9qv/lL31E11Ru3uRLBQTf6knpmwrI7ZzJE6n0f8ufrjBqHVFgaBNbWYJv5arbQQSDNQ3VbjWs24RnwRWAMK+QZaxzTw9qbKJ9XfKdVl6UC1rI42dvAeeHCLymspAkt/DdSnwMs7Eg/MhoXHJHO7a/qBiWDwKkeiOWKfQHJiBnMk7QPLQF9KXAXYBYjUMsli0tgFXkRRdBU+qA9Tci5QTzIcvcCW2lUVf5ch/igGDjJUH5gFSmoBKAEnKfGVGPicwwBgDtgADkkOSDuT76jj6p8cYwp8MLl1h9X9FjELAKilDgy0uhN1VD1u+Heq9gaDIZOHpBNCJ40mb+qGZfIOlDs0WalqBJMdNWraiPpM/ZlT/NKaF03tUVtfnOqgum62xX9RJ9odueY2/hk9BmaAKWAEGADOgWPgK/AxiqJv7cT/C9eaB2tpdIhOIQAAAABJRU5ErkJggg==">  
 </p>
 
-## :adult: Contribuidores
+## :adult: Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
