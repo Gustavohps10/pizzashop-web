@@ -36,9 +36,13 @@ export function SignIn() {
   })
 
   async function handleSignIn(data: SignInForm) {
-    const { email } = data
-    await authenticate({ email })
-    toast.success(`Enviamos um link de login para ${data.email}`)
+    try {
+      const { email } = data
+      await authenticate({ email })
+      toast.success(`Enviamos um link de login para ${data.email}`)
+    } catch (error) {
+      toast.error('Credenciais inválidas')
+    }
   }
 
   return (
