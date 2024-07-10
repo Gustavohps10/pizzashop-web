@@ -36,21 +36,28 @@ export function SignUp() {
   })
 
   async function handleSignUp(data: SignUpForm) {
-    const { email, managerName, phone, restaurantName } = data
+    try {
+      const { email, managerName, phone, restaurantName } = data
 
-    await registerRestaurantFn({
-      email,
-      managerName,
-      phone,
-      restaurantName,
-    })
+      await registerRestaurantFn({
+        email,
+        managerName,
+        phone,
+        restaurantName,
+      })
 
-    toast.success(`Restaurante ${data.restaurantName} cadastrado com sucesso`, {
-      action: {
-        label: 'Login',
-        onClick: () => navigate(`/sign-in?email=${data.email}`),
-      },
-    })
+      toast.success(
+        `Restaurante ${data.restaurantName} cadastrado com sucesso`,
+        {
+          action: {
+            label: 'Login',
+            onClick: () => navigate(`/sign-in?email=${data.email}`),
+          },
+        },
+      )
+    } catch (error) {
+      toast.error('Falha ao registrar, tente novamente!')
+    }
   }
 
   return (
