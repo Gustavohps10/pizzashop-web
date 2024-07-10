@@ -25,3 +25,9 @@ dist-ssr
 
 #Environment
 *.env
+
+#Test
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
